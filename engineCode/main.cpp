@@ -229,8 +229,10 @@ int main(int argc, char *argv[]) {
 			}
 
 			// switch to/from viewing debug camera
+			//Now this will activate new shader
 			if (windowEvent.type == SDL_KEYUP && windowEvent.key.keysym.sym == SDLK_d) {
-				useDebugCamera = !useDebugCamera;
+				updateFinalCompositeShader();
+				printf("New shader?\n");
 			}
 		}
 

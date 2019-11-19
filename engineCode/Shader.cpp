@@ -107,6 +107,7 @@ void Shader::init(){
 	ID = program;
 }
 
+
 void Shader::bind(){
 	glUseProgram(ID);
 }

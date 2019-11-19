@@ -26,6 +26,7 @@ int createSphere(int sphereVbo);
 
 //Final compositing functions
 void initFinalCompositeShader();
+void updateFinalCompositeShader();
 void drawCompositeImage(bool useBloom);
 
 //Cleanup

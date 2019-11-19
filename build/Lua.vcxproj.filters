@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\Lua\src\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BBD323A5-C709-34BE-8D11-906E3C5F1621}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

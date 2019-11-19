@@ -1,3 +1,4 @@
+
 --Simple Example
 print("Starting Lua for Memory Game")
 require "CommonLibs/vec3"
@@ -88,7 +89,7 @@ function mouseHandler(mouse)
     curPos[hitID].x = xVal
     --readShaderSource is another option
     --initFinalCompositeShader()
-    buffer = readShaderSource("quad-frag.glsl")
+    --buffer = readShaderSource("quad-frag.glsl")
     haveClicked = true
   end
 
@@ -96,6 +97,7 @@ function mouseHandler(mouse)
     haveClicked = false
   end
 end
+
 
 function initializeBoard()
   -- make sure everything is empty

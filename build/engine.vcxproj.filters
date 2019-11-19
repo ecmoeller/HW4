@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Bloom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\CollisionSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Materials.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Models.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\RenderingSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Shadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\luaSupport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\engineCode\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\external\loguru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Owner\Documents\COLLEGE\GradSchool\Game engine\HW4\HW4\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BBD323A5-C709-34BE-8D11-906E3C5F1621}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

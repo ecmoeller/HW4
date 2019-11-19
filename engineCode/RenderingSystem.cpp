@@ -551,6 +551,11 @@ void initFinalCompositeShader() {
 	compositeShader.init();
 }
 
+void updateFinalCompositeShader(){
+	compositeShader = Shader("shaders/quad-vert.glsl", "shaders/new-frag.glsl");
+	compositeShader.init();
+}
+
 void drawCompositeImage(bool useBloom) {
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
 	glBindVertexArray(quadVAO);
