@@ -84,9 +84,6 @@ function mouseHandler(mouse)
     hitID, dist = getMouseClickWithLayer(gridLayer)
     print("What is hitID"..hitID)
     print("What is tileItems[modelIndices[idx]]"..tileItems[modelIndices[hitID]])
-    local xVal = curPos[hitID].x - 1
-    placeModel(hitID, xVal, curPos[hitID].y, curPos[hitID].z)
-    curPos[hitID].x = xVal
     --readShaderSource is another option
     --initFinalCompositeShader()
     --buffer = readShaderSource("quad-frag.glsl")

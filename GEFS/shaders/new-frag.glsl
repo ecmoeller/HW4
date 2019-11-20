@@ -59,9 +59,14 @@ void main() {
     
     mapped = pow(mapped, vec3(1.0 / gamma)); // Gamma correction  
 
-    outColor = vec4(1,0,0,1);
+    outColor = vec4(mapped,1);
 
     //float depthValue = texture(texDim, Texcoord * 0.5 + 0.5).r;
     //outColor = vec4(vec3(depthValue), 1.0);
+
+    vec3 fogColor = vec3(.68,.93,.93);
+    float fogDensity = .5;
+    float f = exp(-fogDensity * 3);
+    outColor = vec4(mix(fogColor, outColor.xyz, f),1);
     
 }
