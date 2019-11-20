@@ -49,14 +49,18 @@ $ ./engine <folder containing main.lua> Debug
 _This is a 2x sped up gif showing off our full Memory Tiles game. Click gif to go to a 1.5x sped up Google Drive video of our gameplay._
 
 
-```
-
 
 1. What features did you implement? Why did you choose these particular features?
 
-	Building off the game I made for the last project, I decided to use the same objects as before. However, instead of the objects being covered by tiles, the tiles have been removed so the objects are simply positioned in a 4 by 4 grid. As for the shader code, the intent was to have a object appear like it was highlighted when it was clicked on. I choose this feature because I thought this was something that could have been incorporated into the game, to indicate that a tile had been selected. 
+	Building off the game I made for the last project, I decided to use the same objects as before. However, instead of the objects being covered by tiles, the tiles have been removed so the objects are simply positioned in a 4 by 4 grid. As for the shader code, the intent was to do a simple fog shader. I choose this feature because it was straight forward to implement and could have added a more challenging aspect to the game. I also intended to add a feature that when an object was clicked on it would look like the object had been highlighted, but unfortunately I ran out of time. I wanted to choose this feature because I thought this was something that could have been incorporated into the game, to indicate that a tile had been selected. 
    
 2. Algorithmically, how does you rendering implementation work. What formulas, algorithms, and techniques did you use? How scalable is your approach? What are the key bottlenecks?
 
+	On the rendering side, I choose to use the keyboard to indictate when to use the fog shader. This was enabled by editing an if statement in the event loop in main.cpp. Inside this if statement, I simply call a method called updateFinalCompositeShader which creates a new composite shader by using the shader files specified, which is essentially the same as the initFinalCompositeShader. My idea behind the rendering implementation was to use as much of the already implemented and functional Shader code as possible, since I was having some trouble activating the shader code in my original implementation. Part of the challenge with this was that I was trying to implement the feature that would highlight individual objects when they were clicked, which involved activating shader code from main.lua which I trouble getting working. 
+	Of course, because I recreate a new shader using the kgjdslfkgs there is some redundantcy
+	
+	Scalability
+	
+	Bottlenecks
     
 3. From	a systems design perspective, how did you integrate your new rendering techniques with the rest of the code? How and when do you trigger a change in rendering? In what data structures is the information associated with rendering stored?
